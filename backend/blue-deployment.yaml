@@ -27,3 +27,6 @@ spec:
       containers:
       - name: nginx
         image: sivasaikumar943/backend:2.0.0
+        envFrom:
+        - configMapRef:
+            name: backend
