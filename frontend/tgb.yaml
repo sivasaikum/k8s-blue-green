@@ -4,7 +4,7 @@ metadata:
   name: frontend-tgb
   namespace: expense
 spec:
-  targetGroupARN: arn:aws:elasticloadbalancing:us-east-1:344060441143:targetgroup/expense-dev-ingress/585c3b1a971b1591
+  targetGroupARN: arn:aws:elasticloadbalancing:us-east-1:344060441143:targetgroup/expense-dev-ingress/8b76809addea37d6
   serviceRef:
     name: frontend
     port: 80
