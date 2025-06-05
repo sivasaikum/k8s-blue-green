@@ -8,4 +8,3 @@ spec:
   serviceRef:
     name: frontend
     port: 80
-  targetType: ip
