@@ -2,10 +2,9 @@ apiVersion: elbv2.k8s.aws/v1beta1
 kind: TargetGroupBinding
 metadata:
   name: frontend-tgb
-  namespace : expense
 spec:
   targetGroupARN: arn:aws:elasticloadbalancing:us-east-1:344060441143:targetgroup/expense-dev-ingress/585c3b1a971b1591
   serviceRef:
     name: frontend
     port: 80
-  targetType: ip
+  # targetType: ip
