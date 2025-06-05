@@ -2,6 +2,7 @@ apiVersion: elbv2.k8s.aws/v1beta1
 kind: TargetGroupBinding
 metadata:
   name: frontend-tgb
+  namespace : expense
 spec:
   targetGroupARN: arn:aws:elasticloadbalancing:us-east-1:344060441143:targetgroup/expense-dev-ingress/fc6f414417ff3ab5
   serviceRef:
